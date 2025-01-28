@@ -41,3 +41,44 @@ p {
   font: var(--text-md);
   color: var(--grayish-blue);
 }
+
+.signup-content {
+  display: grid;
+  grid-gap: 15px;
+  padding: 25px;
+  background-color: var(--cyan);
+}
+
+.signup-content p {
+  color: var(--light-gray);
+  align-items: center;
+}
+
+.feature-price {
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  /* border: 1px solid red; */
+}
+
+.feature-price span:nth-child(1) {
+  font: var(--text-ft);
+  /* border: 1px solid red; */
+}
+
+.feature-price span:nth-child(2) {
+  width: 180px;
+  opacity: .5;
+}
+
+.signup-content a {
+  background-color: var(--bright-yellow);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,.2);
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font: var(--text);
+  color: var(--light-gray);
+}
