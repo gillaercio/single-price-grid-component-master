@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --cyan: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --light-gray: hsl(204, 43%, 93%);
+  --grayish-blue: hsl(218, 22%, 67%);
+
+  --karla: "Karla", serif;
+  --text-ft: 700 3em/150% var(--karla);
+  --text: 400 1.6em/150% var(--karla);
+  --text-sm: 200 1.4em/150% var(--karla);
+}
