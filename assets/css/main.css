@@ -1,6 +1,5 @@
 body {
-  background-color: var(--grayish-blue);
-  /* opacity: .5; */
+  background-color: var(--light-gray);
   height: 100vh;
   display: grid;
   align-content: center;
@@ -9,18 +8,21 @@ body {
 
 #content {
   width: 300px;
-  border-radius: 8px;
   box-shadow: 2px 2px 2px rgba(0,0,0,.1);
-  /* border: 1px solid red; */
+}
+
+.feature-content,
+.signup-content,
+.footer-content {
+  display: grid;
+  grid-gap: 15px;
+  padding: 25px;
 }
 
 .feature-content {
-  display: grid;
-  grid-gap: 15px;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  padding: 25px;
-  background-color: var(--light-gray);
+  background-color: white;
 }
 
 .feature-content h1 {
@@ -43,9 +45,6 @@ p {
 }
 
 .signup-content {
-  display: grid;
-  grid-gap: 15px;
-  padding: 25px;
   background-color: var(--cyan);
 }
 
@@ -54,16 +53,19 @@ p {
   align-items: center;
 }
 
+.price-details {
+  display: grid;
+}
+
 .feature-price {
   align-items: center;
   display: grid;
+  height: 35px;
   grid-template-columns: repeat(2, auto);
-  /* border: 1px solid red; */
 }
 
 .feature-price span:nth-child(1) {
   font: var(--text-ft);
-  /* border: 1px solid red; */
 }
 
 .feature-price span:nth-child(2) {
@@ -74,6 +76,7 @@ p {
 .signup-content a {
   background-color: var(--bright-yellow);
   padding: 10px;
+  margin-top: 10px;
   border-radius: 5px;
   box-shadow: 1px 1px 1px rgba(0,0,0,.2);
   cursor: pointer;
@@ -81,4 +84,20 @@ p {
   text-align: center;
   font: var(--text);
   color: var(--light-gray);
+}
+
+.signup-content a:hover {
+  opacity: .7;
+}
+
+.footer-content {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: var(--cyan);
+  opacity: .7;
+}
+
+.footer-content p {
+  color: var(--light-gray);
+  font: var(--text-sm);
 }

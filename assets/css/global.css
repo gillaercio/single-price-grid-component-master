@@ -16,7 +16,7 @@ html {
 
   --karla: "Karla", serif;
   --text-ft: 700 2em/150% var(--karla);
-  --text: 700 1.6em/120% var(--karla);
-  --text-md: 400 1.4em/150% var(--karla);
-  --text-sm: 200 1.4em/150% var(--karla);
+  --text: 700 1.7em/120% var(--karla);
+  --text-md: 400 1.3em/150% var(--karla);
+  --text-sm: 200 1.3em/130% var(--karla);
 }
